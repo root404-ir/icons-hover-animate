@@ -2,12 +2,15 @@ const Icons = ({ icon }) => {
     return (
         <div>
             <li>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span>
-                    {icon}
-                </span>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span>
+                        {icon}
+                    </span>
+                </a>
             </li>
         </div>
     )
