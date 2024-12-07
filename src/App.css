@@ -98,7 +98,19 @@ ul li:hover span:nth-child(1) {
   opacity: 0.2;
 }
 
-ul li:hover span
+ul li:nth-child(1):hover span
 {
-  background: #235621;
+  background: #213456;
+}
+ul li:nth-child(2):hover span
+{
+  background: #3313eb;
+}
+ul li:nth-child(3):hover span
+{
+  background: #f106bb;
+}
+ul li:nth-child(4):hover span
+{
+  background: #04d9ff;
 }
